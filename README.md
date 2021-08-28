@@ -3,12 +3,15 @@
 ## SERVER
 ### GET urls examples:
 
+  ```
   /user?userId=1
   /process?processId=1
   /task?taskId=1
+  ```
 
 ### Task example
-'''
+
+  ```
   {
     "taskId": task_id,
     "type": type,
@@ -21,8 +24,11 @@
     "superTask": None,
     "completed": False
   }
-'''
+  ```
+  
 ### Process example
+
+  ```
   {
     "processId": process_id,
     "author": 0,
@@ -31,3 +37,4 @@
     "tasks": [],
     "competed": False
   }
+  ```
