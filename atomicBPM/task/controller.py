@@ -1,76 +1,83 @@
-from aiohttp import web
+from typing import Dict
 import uuid
 import time
+
+from aiohttp import web
+
+from JSONEncoder import JSONEncoder
 
 
 class TaskController(web.View):
 
-    async def post(self):
+    def __init__(self, request: web.Request) -> None:
+        super(TaskController, self).__init__(request)
         self.db = self.request.db
         self.tasks = self.db["tasks"]
         self.processes = self.db["PROCESSES"]
 
+    async def post(self) -> web.Response:
         data = await self.request.json()
 
         try:
             type = data["type"]
-        except:
-            return web.Response(text="Error")
+        except Exception as e:
+            return web.Response(text=f"Error = {e}")
 
         # Assignment
         if type == 0:
             return await self.post_new_assignment(data)
         else:
-            return web.Response(text="Error")
+            return web.Response(text="Error! Wrong type!")
 
     async def get(self):
         data = self.request.query
-        task_id = data["task"]
-        task = await self.task.get(task_id=task_id)
-        return task
+        task_id = data["taskId"]
+        target = await self.tasks.find_one({"taskId": task_id})
+        return web.Response(content_type='application/json', text=JSONEncoder().encode(target))
 
-    async def post_new_assignment(self, data):
+    async def post_new_assignment(self, data: Dict) -> web.Response:
         try:
             type = data["type"]
             title = data["title"]
             subtitle = data["subtitle"]
             soft_deadline = data["softDeadline"]
             hard_deadline = data["hardDeadline"]
-        except:
-            return web.Response(text="Error")
+        except Exception as e:
+            return web.Response(text=f"Error = {e}")
+
         task_id = str(uuid.uuid4())
         process_id = str(uuid.uuid4())
 
-        print("task_id: ", task_id)
-        print("process_id: ", process_id)
+        print("task id: ", task_id)
+        print("process id: ", process_id)
 
         result = await self.processes.insert_one({
             "processId": process_id,
             "author": 0,
-            "start_date": time.time(),
-            "current_task": task_id,
+            "startDate": time.time(),
+            "currentTask": task_id,
             "tasks": [],
             "competed": False
         })
 
         if result is None:
-            return web.Response(text="Error")
+            return web.Response(text="Error while inserting process to db!")
 
         result = await self.tasks.insert_one({
-            "task_id": task_id,
+            "taskId": task_id,
             "type": type,
             "title": title,
             "subtitle": subtitle,
             "created": time.time(),
             "softDeadline": soft_deadline,
             "hardDeadline": hard_deadline,
-            "proccess": process_id,
-            "super_task": None,
+            "process": process_id,
+            "superTask": None,
             "completed": False
         })
 
         if result is None:
-            return web.Response(text="Error")
+            return web.Response(text="Error while inserting task to db!")
 
         result = await self.processes.find_one_and_update(
             {"processId": process_id},
@@ -78,10 +85,6 @@ class TaskController(web.View):
         )
 
         if result is None:
-            return web.Response(text="Error")
+            return web.Response(text=f"Error while attaching task {task_id} to process {process_id}!")
         else:
             return web.Response(text="Success")
-
-
-
-

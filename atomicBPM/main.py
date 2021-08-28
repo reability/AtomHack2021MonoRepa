@@ -1,16 +1,15 @@
-
 import asyncio
 
 from aiohttp import web
+from aiohttp.web import middleware
 from motor import motor_asyncio as ma
 
-#from settings import MONGO_HOST, MONGO_DB_NAME, HOST, PORT
 from routing import routings
 
-from aiohttp.web import middleware
 
 MONGO_HOST = "mongodb://localhost:27017"
 MONGO_DBNAME = "BPM"
+
 
 @middleware
 async def db_handler(request, handler):
