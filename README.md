@@ -7,6 +7,7 @@
 /task?taskId=1
 
 ### Task example
+'''
   {
     "taskId": task_id,
     "type": type,
@@ -19,6 +20,7 @@
     "superTask": None,
     "completed": False
   }
+'''
 ### Process example
   {
     "processId": process_id,
