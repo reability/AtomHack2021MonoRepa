@@ -1,12 +1,12 @@
 # AtomHack2021MonoRepa
 
-SERVER
-GET urls examples:
+## SERVER
+### GET urls examples:
 /user?userId=1
 /process?processId=1
 /task?taskId=1
 
-Task example
+### Task example
 {
   "taskId": task_id,
   "type": type,
@@ -19,7 +19,7 @@ Task example
   "superTask": None,
   "completed": False
 }
-Process example
+### Process example
 {
   "processId": process_id,
   "author": 0,
