@@ -12,7 +12,7 @@ class TaskController(web.View):
     def __init__(self, request: web.Request) -> None:
         super(TaskController, self).__init__(request)
         self.db = self.request.db
-        self.tasks = self.db["tasks"]
+        self.tasks = self.db["TASKS"]
         self.processes = self.db["PROCESSES"]
 
     async def post(self) -> web.Response:
@@ -20,14 +20,18 @@ class TaskController(web.View):
 
         try:
             type = data["type"]
+            redirect = data.pop("redirect")
         except Exception as e:
             return web.Response(text=f"Error = {e}")
 
-        # Assignment
-        if type == 0:
+        if type == 0 and redirect:
+            self.tasks.find_one_and_update({"taskId": data["taskId"]})
+            return web.Response(text='Success')
+        elif type == 0 and not redirect:
+            # Assignment
             return await self.post_new_assignment(data)
         else:
-            return web.Response(text="Error! Wrong type!")
+            return web.Response(text="Error while creating task!")
 
     async def get(self):
         data = self.request.query
@@ -42,6 +46,8 @@ class TaskController(web.View):
             subtitle = data["subtitle"]
             soft_deadline = data["softDeadline"]
             hard_deadline = data["hardDeadline"]
+            executor = data["executor"]
+            watcher = data["watcher"]
         except Exception as e:
             return web.Response(text=f"Error = {e}")
 
@@ -73,7 +79,9 @@ class TaskController(web.View):
             "hardDeadline": hard_deadline,
             "process": process_id,
             "superTask": None,
-            "completed": False
+            "completed": False,
+            "executor": executor,
+            "watcher": watcher
         })
 
         if result is None:

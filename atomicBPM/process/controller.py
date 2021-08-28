@@ -5,6 +5,7 @@ import uuid
 
 
 class ProcessController(web.View):
+
     async def get(self) -> web.Response:
         process = Process(db=self.request.db)
 

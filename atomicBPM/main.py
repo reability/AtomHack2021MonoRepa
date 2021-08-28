@@ -29,4 +29,4 @@ if __name__ == "__main__":
     app.client = ma.AsyncIOMotorClient(MONGO_HOST)
     app.db = app.client[MONGO_DBNAME]
 
-    web.run_app(app)
+    web.run_app(app, port=8000)
