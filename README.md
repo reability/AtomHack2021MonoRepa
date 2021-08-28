@@ -9,7 +9,7 @@
   /task?taskId=1
   ```
 
-### Task example
+### Task example:
 
   ```
   {
@@ -26,7 +26,7 @@
   }
   ```
   
-### Process example
+### Process example:
 
   ```
   {
