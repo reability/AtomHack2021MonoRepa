@@ -199,7 +199,8 @@ tasks = [
         "superTask": None,
         "completed": True,
         "executor": 9,
-        "watcher": 7
+        "watcher": 7,
+        "active": True
     },
 {
         "taskId": 2,
@@ -213,7 +214,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 2,
-        "watcher": 1
+        "watcher": 1,
+        "active": True
     },
 {
         "taskId": 3,
@@ -227,7 +229,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 3,
-        "watcher": 1
+        "watcher": 1,
+        "active": True
     },
 {
         "taskId": 4,
@@ -241,7 +244,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 4,
-        "watcher": 2
+        "watcher": 2,
+        "active": True
     },
 {
         "taskId": 5,
@@ -255,7 +259,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 5,
-        "watcher": 3
+        "watcher": 3,
+        "active": True
     },
 {
         "taskId": 6,
@@ -269,7 +274,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 6,
-        "watcher": 4
+        "watcher": 4,
+        "active": True
     },
 {
         "taskId": 7,
@@ -283,7 +289,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 7,
-        "watcher": 4
+        "watcher": 4,
+        "active": True
     },
 {
         "taskId": 8,
@@ -297,7 +304,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 8,
-        "watcher": 7
+        "watcher": 7,
+        "active": True
     },
 {
         "taskId": 9,
@@ -311,7 +319,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 9,
-        "watcher": 7
+        "watcher": 7,
+        "active": True
     },{
         "taskId": 10,
         "type": 0,
@@ -324,7 +333,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 10,
-        "watcher": 5
+        "watcher": 5,
+        "active": True
     },
 {
         "taskId": 11,
@@ -338,7 +348,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 11,
-        "watcher": 5
+        "watcher": 5,
+        "active": True
     },
 {
         "taskId": 12,
@@ -352,7 +363,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 12,
-        "watcher": 11
+        "watcher": 11,
+        "active": True
     },
 {
         "taskId": 13,
@@ -366,7 +378,8 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 13,
-        "watcher": 11
+        "watcher": 11,
+        "active": True
     },
 {
         "taskId": 14,
@@ -380,11 +393,12 @@ tasks = [
         "superTask": None,
         "completed": False,
         "executor": 9,
-        "watcher": 7
+        "watcher": 7,
+        "active": True
     },
 ]
 
 # for document in tasks:
 #     print("here")
 #     result = collections_tasks.insert_one(document)
-#     print("gere")
+#     printt("gere")
