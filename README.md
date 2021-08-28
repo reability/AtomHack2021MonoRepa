@@ -42,3 +42,21 @@
     "competed": False
   }
   ```
+  
+### User example:
+
+  ```
+  {
+    "userId": 1,
+    "isDeputy": False,
+    "avatar": "img1",
+    "name": "Антон Мэров",
+    "job": "Мэр",
+    "departament": "Администрация",
+    "email": "mer@sochi.ru",
+    "phone": "89990001122",
+    "superViser": None,
+    "deputy": [2, 3],
+    "subordinate": []
+  }
+  ```
