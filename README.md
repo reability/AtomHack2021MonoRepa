@@ -26,7 +26,8 @@
      "superTask": None,
      "completed": True,
      "executor": 9,
-     "watcher": 7
+     "watcher": 7,
+     "active": True
   }
   ```
   
