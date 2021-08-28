@@ -2,9 +2,10 @@
 
 ## SERVER
 ### GET urls examples:
-/user?userId=1
-/process?processId=1
-/task?taskId=1
+
+  /user?userId=1
+  /process?processId=1
+  /task?taskId=1
 
 ### Task example
 '''
