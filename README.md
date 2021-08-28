@@ -7,22 +7,26 @@
   /user?userId=1
   /process?processId=1
   /task?taskId=1
+  /userCard?userId=1
+  /taskList?userId=1
   ```
 
 ### Task example:
 
   ```
   {
-    "taskId": task_id,
-    "type": type,
-    "title": title,
-    "subtitle": subtitle,
-    "created": time.time(),
-    "softDeadline": soft_deadline,
-    "hardDeadline": hard_deadline,
-    "process": process_id,
-    "superTask": None,
-    "completed": False
+     "taskId": 1,
+     "type": 0,
+     "title": "task1",
+     "subtitle": "important_task",
+     "created": time.time(),
+     "softDeadline": "01.09.2021",
+     "hardDeadline": "31.08.2021.",
+     "process": 1,
+     "superTask": None,
+     "completed": True,
+     "executor": 9,
+     "watcher": 7
   }
   ```
   
