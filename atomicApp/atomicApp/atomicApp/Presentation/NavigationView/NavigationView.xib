@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -29,27 +28,38 @@
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Задачи" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcg-bJ-LF8">
                     <rect key="frame" x="86" y="25" width="82.5" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="82.5" id="FMO-BE-CBO"/>
+                    </constraints>
                     <fontDescription key="fontDescription" name="TTInterfaces-SemiBold" family="TT Interfaces" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Поиск" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79g-iD-tUJ">
                     <rect key="frame" x="218" y="14.5" width="480" height="51"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="480" id="gm9-hS-8yx"/>
                     </constraints>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="barTintColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <offsetWrapper key="searchTextPositionAdjustment" horizontal="11" vertical="0.0"/>
+                    <offsetWrapper key="searchFieldBackgroundPositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     <textInputTraits key="textInputTraits"/>
                 </searchBar>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Alc-8A-WL9">
                     <rect key="frame" x="714" y="16" width="48" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48" id="DQp-Q6-PGG"/>
                         <constraint firstAttribute="height" constant="48" id="Lpz-bU-VZr"/>
                     </constraints>
                     <state key="normal" image="icons-1"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xff-hY-z7m">
                     <rect key="frame" x="818" y="16" width="48" height="48"/>
@@ -81,6 +91,9 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MP-gA-KIC">
                     <rect key="frame" x="976" y="23" width="49" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="g7C-Kn-hLy"/>
+                    </constraints>
                     <state key="normal" title="vladsf">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
@@ -97,7 +110,7 @@
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="i9h-gY-njv" firstAttribute="leading" secondItem="0MP-gA-KIC" secondAttribute="trailing" constant="6" id="3HR-mQ-J1A"/>
                 <constraint firstItem="Alc-8A-WL9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9xp-tL-iIx"/>
@@ -117,6 +130,7 @@
                 <constraint firstItem="0MP-gA-KIC" firstAttribute="leading" secondItem="905-FI-wpE" secondAttribute="trailing" constant="12" id="usy-Gq-6Cd"/>
                 <constraint firstItem="4rO-dG-DAt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vPr-bi-hKM"/>
                 <constraint firstItem="i9h-gY-njv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vUC-n0-aPJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="i9h-gY-njv" secondAttribute="trailing" constant="30" id="yZ8-VM-G3q"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="214.56808199121522" y="-170.5078125"/>
@@ -129,8 +143,5 @@
         <image name="icons-1" width="24" height="24"/>
         <image name="icons-2" width="24" height="24"/>
         <image name="icons-3" width="24" height="24"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

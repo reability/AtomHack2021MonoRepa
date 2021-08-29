@@ -18,6 +18,30 @@
 		2DCC714B26DA9C7A00248A19 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC714A26DA9C7A00248A19 /* TaskListView.swift */; };
 		2DCC714F26DAA5A300248A19 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC714E26DAA5A300248A19 /* TaskCell.swift */; };
 		2DCC715326DAA68F00248A19 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC715226DAA68F00248A19 /* TaskService.swift */; };
+		486CD9EB26DAB91900183166 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CD9E926DAB91900183166 /* TaskListViewController.swift */; };
+		486CD9EC26DAB91900183166 /* TaskListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9EA26DAB91900183166 /* TaskListViewController.xib */; };
+		486CD9EF26DABA7F00183166 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CD9EE26DABA7F00183166 /* NavigationView.swift */; };
+		486CD9F126DABBE700183166 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F026DABBE700183166 /* NavigationView.xib */; };
+		486CD9F326DABC6200183166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F226DABC6200183166 /* Assets.xcassets */; };
+		486CDA0726DABED800183166 /* TTInterfaces-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F526DABED800183166 /* TTInterfaces-Black.ttf */; };
+		486CDA0826DABED800183166 /* TTInterfaces-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F626DABED800183166 /* TTInterfaces-Italic.ttf */; };
+		486CDA0926DABED800183166 /* TTInterfaces-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F726DABED800183166 /* TTInterfaces-Thin.ttf */; };
+		486CDA0A26DABED800183166 /* TTInterfaces-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F826DABED800183166 /* TTInterfaces-ExtraBold.ttf */; };
+		486CDA0B26DABED800183166 /* TTInterfaces-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9F926DABED800183166 /* TTInterfaces-Bold.ttf */; };
+		486CDA0C26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FA26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf */; };
+		486CDA0D26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FB26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf */; };
+		486CDA0E26DABED800183166 /* TTInterfaces-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FC26DABED800183166 /* TTInterfaces-MediumItalic.ttf */; };
+		486CDA0F26DABED800183166 /* TTInterfaces-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FD26DABED800183166 /* TTInterfaces-Regular.ttf */; };
+		486CDA1026DABED800183166 /* TTInterfaces-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FE26DABED800183166 /* TTInterfaces-BlackItalic.ttf */; };
+		486CDA1126DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CD9FF26DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf */; };
+		486CDA1226DABED800183166 /* TTInterfaces-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0026DABED800183166 /* TTInterfaces-BoldItalic.ttf */; };
+		486CDA1326DABED800183166 /* TTInterfaces-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0126DABED800183166 /* TTInterfaces-ThinItalic.ttf */; };
+		486CDA1426DABED800183166 /* TTInterfaces-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0226DABED800183166 /* TTInterfaces-ExtraLight.ttf */; };
+		486CDA1526DABED800183166 /* TTInterfaces-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0326DABED800183166 /* TTInterfaces-Light.ttf */; };
+		486CDA1626DABED800183166 /* TTInterfaces-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0426DABED800183166 /* TTInterfaces-SemiBold.ttf */; };
+		486CDA1726DABED800183166 /* TTInterfaces-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0526DABED800183166 /* TTInterfaces-LightItalic.ttf */; };
+		486CDA1826DABED800183166 /* TTInterfaces-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0626DABED800183166 /* TTInterfaces-Medium.ttf */; };
+		486CDA1A26DAC26D00183166 /* CommonServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA1926DAC26D00183166 /* CommonServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +58,30 @@
 		2DCC714A26DA9C7A00248A19 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		2DCC714E26DAA5A300248A19 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		2DCC715226DAA68F00248A19 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		486CD9E926DAB91900183166 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		486CD9EA26DAB91900183166 /* TaskListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskListViewController.xib; sourceTree = "<group>"; };
+		486CD9EE26DABA7F00183166 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		486CD9F026DABBE700183166 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		486CD9F226DABC6200183166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486CD9F526DABED800183166 /* TTInterfaces-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Black.ttf"; sourceTree = "<group>"; };
+		486CD9F626DABED800183166 /* TTInterfaces-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Italic.ttf"; sourceTree = "<group>"; };
+		486CD9F726DABED800183166 /* TTInterfaces-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Thin.ttf"; sourceTree = "<group>"; };
+		486CD9F826DABED800183166 /* TTInterfaces-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-ExtraBold.ttf"; sourceTree = "<group>"; };
+		486CD9F926DABED800183166 /* TTInterfaces-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Bold.ttf"; sourceTree = "<group>"; };
+		486CD9FA26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		486CD9FB26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		486CD9FC26DABED800183166 /* TTInterfaces-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-MediumItalic.ttf"; sourceTree = "<group>"; };
+		486CD9FD26DABED800183166 /* TTInterfaces-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Regular.ttf"; sourceTree = "<group>"; };
+		486CD9FE26DABED800183166 /* TTInterfaces-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-BlackItalic.ttf"; sourceTree = "<group>"; };
+		486CD9FF26DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		486CDA0026DABED800183166 /* TTInterfaces-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-BoldItalic.ttf"; sourceTree = "<group>"; };
+		486CDA0126DABED800183166 /* TTInterfaces-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-ThinItalic.ttf"; sourceTree = "<group>"; };
+		486CDA0226DABED800183166 /* TTInterfaces-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-ExtraLight.ttf"; sourceTree = "<group>"; };
+		486CDA0326DABED800183166 /* TTInterfaces-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Light.ttf"; sourceTree = "<group>"; };
+		486CDA0426DABED800183166 /* TTInterfaces-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-SemiBold.ttf"; sourceTree = "<group>"; };
+		486CDA0526DABED800183166 /* TTInterfaces-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-LightItalic.ttf"; sourceTree = "<group>"; };
+		486CDA0626DABED800183166 /* TTInterfaces-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Medium.ttf"; sourceTree = "<group>"; };
+		486CDA1926DAC26D00183166 /* CommonServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +114,7 @@
 		2DCC712B26DA537400248A19 /* atomicApp */ = {
 			isa = PBXGroup;
 			children = (
-				2DCC714226DA539A00248A19 /* Resourses */,
+				486CD9E726DAB8DD00183166 /* Resources */,
 				2DCC714126DA539400248A19 /* Presentation */,
 				2DCC714026DA538E00248A19 /* Core */,
 				2DCC712C26DA537400248A19 /* AppDelegate.swift */,
@@ -93,6 +141,7 @@
 			children = (
 				2DCC715026DAA67900248A19 /* Services */,
 				2DCC714C26DAA58D00248A19 /* UI */,
+				486CDA1926DAC26D00183166 /* CommonServiceProtocol.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -100,19 +149,13 @@
 		2DCC714126DA539400248A19 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				2DCC715426DAA8F200248A19 /* 3.NewTask */,
+				486CD9ED26DABA4700183166 /* NavigationView */,
+				486CD9E826DAB8EF00183166 /* TaskList */,
 				2DCC714726DA9C1300248A19 /* 0.Master */,
 				2DCC714426DA53BD00248A19 /* 2.TaskList */,
 				2DCC714326DA53B500248A19 /* 1.Welcome */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		2DCC714226DA539A00248A19 /* Resourses */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resourses;
 			sourceTree = "<group>";
 		};
 		2DCC714326DA53B500248A19 /* 1.Welcome */ = {
@@ -171,11 +214,64 @@
 			path = TaskService;
 			sourceTree = "<group>";
 		};
-		2DCC715426DAA8F200248A19 /* 3.NewTask */ = {
+		486CD9E726DAB8DD00183166 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				486CD9F426DABED800183166 /* TTFonts */,
+				486CD9F226DABC6200183166 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		486CD9E826DAB8EF00183166 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				486CDA1B26DAD70500183166 /* Cells */,
+				486CD9E926DAB91900183166 /* TaskListViewController.swift */,
+				486CD9EA26DAB91900183166 /* TaskListViewController.xib */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		486CD9ED26DABA4700183166 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				486CD9EE26DABA7F00183166 /* NavigationView.swift */,
+				486CD9F026DABBE700183166 /* NavigationView.xib */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		486CD9F426DABED800183166 /* TTFonts */ = {
+			isa = PBXGroup;
+			children = (
+				486CD9F526DABED800183166 /* TTInterfaces-Black.ttf */,
+				486CD9F626DABED800183166 /* TTInterfaces-Italic.ttf */,
+				486CD9F726DABED800183166 /* TTInterfaces-Thin.ttf */,
+				486CD9F826DABED800183166 /* TTInterfaces-ExtraBold.ttf */,
+				486CD9F926DABED800183166 /* TTInterfaces-Bold.ttf */,
+				486CD9FA26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf */,
+				486CD9FB26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf */,
+				486CD9FC26DABED800183166 /* TTInterfaces-MediumItalic.ttf */,
+				486CD9FD26DABED800183166 /* TTInterfaces-Regular.ttf */,
+				486CD9FE26DABED800183166 /* TTInterfaces-BlackItalic.ttf */,
+				486CD9FF26DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf */,
+				486CDA0026DABED800183166 /* TTInterfaces-BoldItalic.ttf */,
+				486CDA0126DABED800183166 /* TTInterfaces-ThinItalic.ttf */,
+				486CDA0226DABED800183166 /* TTInterfaces-ExtraLight.ttf */,
+				486CDA0326DABED800183166 /* TTInterfaces-Light.ttf */,
+				486CDA0426DABED800183166 /* TTInterfaces-SemiBold.ttf */,
+				486CDA0526DABED800183166 /* TTInterfaces-LightItalic.ttf */,
+				486CDA0626DABED800183166 /* TTInterfaces-Medium.ttf */,
+			);
+			path = TTFonts;
+			sourceTree = "<group>";
+		};
+		486CDA1B26DAD70500183166 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 3.NewTask;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +332,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCC713926DA537600248A19 /* LaunchScreen.storyboard in Resources */,
+				486CD9F126DABBE700183166 /* NavigationView.xib in Resources */,
+				486CDA0926DABED800183166 /* TTInterfaces-Thin.ttf in Resources */,
+				486CDA0D26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf in Resources */,
+				486CDA1026DABED800183166 /* TTInterfaces-BlackItalic.ttf in Resources */,
+				486CDA0826DABED800183166 /* TTInterfaces-Italic.ttf in Resources */,
+				486CD9EC26DAB91900183166 /* TaskListViewController.xib in Resources */,
+				486CDA0F26DABED800183166 /* TTInterfaces-Regular.ttf in Resources */,
+				486CDA1426DABED800183166 /* TTInterfaces-ExtraLight.ttf in Resources */,
+				486CDA1626DABED800183166 /* TTInterfaces-SemiBold.ttf in Resources */,
 				2DCC713626DA537600248A19 /* Preview Assets.xcassets in Resources */,
+				486CDA0A26DABED800183166 /* TTInterfaces-ExtraBold.ttf in Resources */,
+				486CD9F326DABC6200183166 /* Assets.xcassets in Resources */,
+				486CDA0E26DABED800183166 /* TTInterfaces-MediumItalic.ttf in Resources */,
+				486CDA0C26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf in Resources */,
+				486CDA1126DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf in Resources */,
+				486CDA0B26DABED800183166 /* TTInterfaces-Bold.ttf in Resources */,
+				486CDA0726DABED800183166 /* TTInterfaces-Black.ttf in Resources */,
+				486CDA1726DABED800183166 /* TTInterfaces-LightItalic.ttf in Resources */,
+				486CDA1326DABED800183166 /* TTInterfaces-ThinItalic.ttf in Resources */,
 				2DCC713326DA537600248A19 /* Assets.xcassets in Resources */,
+				486CDA1826DABED800183166 /* TTInterfaces-Medium.ttf in Resources */,
+				486CDA1526DABED800183166 /* TTInterfaces-Light.ttf in Resources */,
+				486CDA1226DABED800183166 /* TTInterfaces-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,11 +365,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486CDA1A26DAC26D00183166 /* CommonServiceProtocol.swift in Sources */,
 				2DCC715326DAA68F00248A19 /* TaskService.swift in Sources */,
 				2DCC714926DA9C2500248A19 /* MasterViewController.swift in Sources */,
+				486CD9EF26DABA7F00183166 /* NavigationView.swift in Sources */,
 				2DCC714F26DAA5A300248A19 /* TaskCell.swift in Sources */,
 				2DCC712D26DA537400248A19 /* AppDelegate.swift in Sources */,
 				2DCC712F26DA537400248A19 /* SceneDelegate.swift in Sources */,
+				486CD9EB26DAB91900183166 /* TaskListViewController.swift in Sources */,
 				2DCC713126DA537400248A19 /* ContentView.swift in Sources */,
 				2DCC714626DA56D700248A19 /* WelcomeView.swift in Sources */,
 				2DCC714B26DA9C7A00248A19 /* TaskListView.swift in Sources */,

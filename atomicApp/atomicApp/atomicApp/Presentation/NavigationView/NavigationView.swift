@@ -26,6 +26,16 @@ extension NavigationViewProtocolable where Self: UIViewController {
 
 final class NavigationView: UIView {
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+//        Bundle.main.loadNibNamed("NavigationView", owner: self, options: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+//        Bundle.main.loadNibNamed("NavigationView", owner: self, options: nil)
+//        fatalError("init(coder:) has not been implemented")
+    }
     
     override func layoutSubviews() {
         super.layoutSubviews()
