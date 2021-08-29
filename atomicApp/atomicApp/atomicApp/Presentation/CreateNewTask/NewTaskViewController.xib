@@ -156,7 +156,7 @@
                             <state key="normal" title="Отмена"/>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Создание задачи" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNJ-o4-t96">
-                            <rect key="frame" x="97" y="19" width="221.5" height="34"/>
+                            <rect key="frame" x="54" y="19" width="221.5" height="34"/>
                             <fontDescription key="fontDescription" name="TTInterfaces-SemiBold" family="TT Interfaces" pointSize="27"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -189,7 +189,7 @@
                         <constraint firstItem="i8G-Re-7Rf" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="53" id="gwy-G7-Dww"/>
                         <constraint firstItem="NhR-5m-LdB" firstAttribute="top" secondItem="t3A-sm-Vwy" secondAttribute="bottom" constant="9" id="hQ8-5q-sQ8"/>
                         <constraint firstItem="AWE-gG-B0S" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="53" id="jJr-d1-Zcx"/>
-                        <constraint firstItem="nNJ-o4-t96" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="97" id="jRZ-ct-i2Y"/>
+                        <constraint firstItem="nNJ-o4-t96" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="54" id="jRZ-ct-i2Y"/>
                         <constraint firstItem="Qmj-OY-qjR" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="53" id="lnZ-XJ-Nr0"/>
                         <constraint firstItem="FHQ-h7-kOT" firstAttribute="leading" secondItem="qSd-DJ-kXI" secondAttribute="leading" constant="53" id="ocK-TT-D3D"/>
                         <constraint firstItem="3Ln-lS-XWE" firstAttribute="top" secondItem="FHQ-h7-kOT" secondAttribute="bottom" constant="8" symbolic="YES" id="p3H-4z-4x8"/>
