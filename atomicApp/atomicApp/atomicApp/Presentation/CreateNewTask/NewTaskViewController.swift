@@ -30,6 +30,10 @@ class NewTaskViewController: UIViewController, UITableViewDataSource, UITableVie
     
     @IBAction func tapToCloseModule(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+        
+    }
+    @IBAction func tapToPublicate(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

@@ -150,6 +150,9 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Zg-cg-LxJ">
                             <rect key="frame" x="53" y="832" width="102" height="30"/>
                             <state key="normal" title="Опубликовать"/>
+                            <connections>
+                                <action selector="tapToPublicate:" destination="-1" eventType="touchUpInside" id="nxt-cF-sr7"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6U4-gS-bMi">
                             <rect key="frame" x="200" y="832" width="56" height="30"/>
