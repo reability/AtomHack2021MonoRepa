@@ -10,6 +10,13 @@
   /userCard?userId=1
   /taskList?userId=1
   ```
+### POST url examples:
+Деллигирует задачу или отклоняет переводя в состояние `active: false` при указании параметра `active=redirect/decline`. Без параметров запускает процесс на создание следующей задачи (`type` в  `body` должен равняться `0`)
+
+  ```
+  /task?active=redirect[decline]
+  /task
+  ```
 
 ### Task example:
 
@@ -26,7 +33,8 @@
      "superTask": None,
      "completed": True,
      "executor": 9,
-     "watcher": 7
+     "watcher": 7,
+     "active": True
   }
   ```
   

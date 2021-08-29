@@ -17,26 +17,45 @@ class TaskController(web.View):
 
     async def post(self) -> web.Response:
         data = await self.request.json()
+        params = self.request.query
 
         try:
             type = data["type"]
-            redirect = data.pop("redirect")
+            action = params.get("action")
         except Exception as e:
             return web.Response(text=f"Error = {e}")
 
-        if type == 0 and redirect:
-            self.tasks.find_one_and_update({"taskId": data["taskId"]})
-            return web.Response(text='Success')
-        elif type == 0 and not redirect:
-            # Assignment
+        # Redirect
+        if action == 'redirect':
+            try:
+                self.tasks.find_one_and_update(
+                    {"taskId": data["taskId"]},
+                    {"$set": {"executor": data["executor"]}}
+                )
+                return web.Response(text='Success')
+            except Exception as e:
+                return web.Response(text=f'Error - {e}')
+        # Decline
+        elif action == 'decline':
+            try:
+                self.tasks.find_one_and_update(
+                    {"taskId": data["taskId"]},
+                    {"$set": {"active": False}}
+                )
+                return web.Response(text='Success')
+            except Exception as e:
+                return web.Response(text=f'Error - {e}')
+        # Assignment
+        elif type == 0:
             return await self.post_new_assignment(data)
+        # Error
         else:
-            return web.Response(text="Error while creating task!")
+            return web.Response(text="Error! Wrong type or redirect/decline field is missing!")
 
     async def get(self):
         data = self.request.query
         task_id = data["taskId"]
-        target = await self.tasks.find_one({"taskId": task_id})
+        target = await self.tasks.find_one({"taskId": int(task_id)})
         return web.Response(content_type='application/json', text=JSONEncoder().encode(target))
 
     async def post_new_assignment(self, data: Dict) -> web.Response:
@@ -63,7 +82,7 @@ class TaskController(web.View):
             "startDate": time.time(),
             "currentTask": task_id,
             "tasks": [],
-            "competed": False
+            "completed": False
         })
 
         if result is None:
@@ -96,3 +115,19 @@ class TaskController(web.View):
             return web.Response(text=f"Error while attaching task {task_id} to process {process_id}!")
         else:
             return web.Response(text="Success")
+
+    async def delete(self):
+        data = self.request.query
+        task_id = data["taskId"]
+        self.tasks.find_one_and_delete({"taskId": task_id})
+        return web.Response(text='Success')
+
+    async def put(self):
+        len = await self.tasks.count_documents({"superTask": None})
+        len = JSONEncoder().encode(len)
+        for i in range(1, int(len) + 1):
+            self.tasks.find_one_and_update(
+                {"taskId": i},
+                {"$set": {"active": True}}
+            )
+        return web.Response(text='success')
