@@ -25,6 +25,8 @@ extension NavigationViewProtocolable where Self: UIViewController {
 }
 
 final class NavigationView: UIView {
+    @IBOutlet var sideButton: UIButton!
+    @IBOutlet var tapToAddNewCard: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

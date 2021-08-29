@@ -42,6 +42,24 @@
 		486CDA1726DABED800183166 /* TTInterfaces-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0526DABED800183166 /* TTInterfaces-LightItalic.ttf */; };
 		486CDA1826DABED800183166 /* TTInterfaces-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA0626DABED800183166 /* TTInterfaces-Medium.ttf */; };
 		486CDA1A26DAC26D00183166 /* CommonServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA1926DAC26D00183166 /* CommonServiceProtocol.swift */; };
+		486CDA1E26DB774200183166 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA1C26DB774200183166 /* HeaderTableViewCell.swift */; };
+		486CDA1F26DB774200183166 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA1D26DB774200183166 /* HeaderTableViewCell.xib */; };
+		486CDA2226DB791800183166 /* BodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA2026DB791800183166 /* BodyTableViewCell.swift */; };
+		486CDA2326DB791800183166 /* BodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA2126DB791800183166 /* BodyTableViewCell.xib */; };
+		486CDA2726DB7A2F00183166 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA2526DB7A2F00183166 /* CarouselCollectionViewCell.swift */; };
+		486CDA2826DB7A2F00183166 /* CarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA2626DB7A2F00183166 /* CarouselCollectionViewCell.xib */; };
+		486CDA2B26DB7C5600183166 /* SubHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CDA2926DB7C5600183166 /* SubHeaderTableViewCell.swift */; };
+		486CDA2C26DB7C5600183166 /* SubHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 486CDA2A26DB7C5600183166 /* SubHeaderTableViewCell.xib */; };
+		48860A9026DB813B0068D1EC /* SpaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48860A8E26DB813B0068D1EC /* SpaceTableViewCell.swift */; };
+		48860A9126DB813B0068D1EC /* SpaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48860A8F26DB813B0068D1EC /* SpaceTableViewCell.xib */; };
+		48860A9526DB84E70068D1EC /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48860A9326DB84E70068D1EC /* SideMenuTableViewCell.swift */; };
+		48860A9626DB84E70068D1EC /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48860A9426DB84E70068D1EC /* SideMenuTableViewCell.xib */; };
+		48860A9926DB8DD20068D1EC /* HeaderSideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48860A9726DB8DD20068D1EC /* HeaderSideTableViewCell.swift */; };
+		48860A9A26DB8DD20068D1EC /* HeaderSideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48860A9826DB8DD20068D1EC /* HeaderSideTableViewCell.xib */; };
+		48860A9E26DB940F0068D1EC /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48860A9C26DB940F0068D1EC /* NewTaskViewController.swift */; };
+		48860A9F26DB940F0068D1EC /* NewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48860A9D26DB940F0068D1EC /* NewTaskViewController.xib */; };
+		48868D2026DB9C1D009149E1 /* BottomMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48868D1E26DB9C1D009149E1 /* BottomMenuTableViewCell.swift */; };
+		48868D2126DB9C1D009149E1 /* BottomMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48868D1F26DB9C1D009149E1 /* BottomMenuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +100,24 @@
 		486CDA0526DABED800183166 /* TTInterfaces-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-LightItalic.ttf"; sourceTree = "<group>"; };
 		486CDA0626DABED800183166 /* TTInterfaces-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTInterfaces-Medium.ttf"; sourceTree = "<group>"; };
 		486CDA1926DAC26D00183166 /* CommonServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonServiceProtocol.swift; sourceTree = "<group>"; };
+		486CDA1C26DB774200183166 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		486CDA1D26DB774200183166 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		486CDA2026DB791800183166 /* BodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTableViewCell.swift; sourceTree = "<group>"; };
+		486CDA2126DB791800183166 /* BodyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyTableViewCell.xib; sourceTree = "<group>"; };
+		486CDA2526DB7A2F00183166 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		486CDA2626DB7A2F00183166 /* CarouselCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		486CDA2926DB7C5600183166 /* SubHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		486CDA2A26DB7C5600183166 /* SubHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		48860A8E26DB813B0068D1EC /* SpaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceTableViewCell.swift; sourceTree = "<group>"; };
+		48860A8F26DB813B0068D1EC /* SpaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpaceTableViewCell.xib; sourceTree = "<group>"; };
+		48860A9326DB84E70068D1EC /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		48860A9426DB84E70068D1EC /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		48860A9726DB8DD20068D1EC /* HeaderSideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSideTableViewCell.swift; sourceTree = "<group>"; };
+		48860A9826DB8DD20068D1EC /* HeaderSideTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSideTableViewCell.xib; sourceTree = "<group>"; };
+		48860A9C26DB940F0068D1EC /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		48860A9D26DB940F0068D1EC /* NewTaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTaskViewController.xib; sourceTree = "<group>"; };
+		48868D1E26DB9C1D009149E1 /* BottomMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuTableViewCell.swift; sourceTree = "<group>"; };
+		48868D1F26DB9C1D009149E1 /* BottomMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomMenuTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +185,7 @@
 		2DCC714126DA539400248A19 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				48860A9B26DB93D90068D1EC /* CreateNewTask */,
 				486CD9ED26DABA4700183166 /* NavigationView */,
 				486CD9E826DAB8EF00183166 /* TaskList */,
 				2DCC714726DA9C1300248A19 /* 0.Master */,
@@ -270,8 +307,57 @@
 		486CDA1B26DAD70500183166 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				48860A9226DB84C70068D1EC /* SideMenu */,
+				48860A8D26DB813B0068D1EC /* SpaceViewCell */,
+				486CDA2426DB79EA00183166 /* CollectionCell */,
+				486CDA1C26DB774200183166 /* HeaderTableViewCell.swift */,
+				486CDA1D26DB774200183166 /* HeaderTableViewCell.xib */,
+				486CDA2026DB791800183166 /* BodyTableViewCell.swift */,
+				486CDA2126DB791800183166 /* BodyTableViewCell.xib */,
+				486CDA2926DB7C5600183166 /* SubHeaderTableViewCell.swift */,
+				486CDA2A26DB7C5600183166 /* SubHeaderTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		486CDA2426DB79EA00183166 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				486CDA2526DB7A2F00183166 /* CarouselCollectionViewCell.swift */,
+				486CDA2626DB7A2F00183166 /* CarouselCollectionViewCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		48860A8D26DB813B0068D1EC /* SpaceViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				48860A8E26DB813B0068D1EC /* SpaceTableViewCell.swift */,
+				48860A8F26DB813B0068D1EC /* SpaceTableViewCell.xib */,
+			);
+			path = SpaceViewCell;
+			sourceTree = "<group>";
+		};
+		48860A9226DB84C70068D1EC /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				48860A9326DB84E70068D1EC /* SideMenuTableViewCell.swift */,
+				48860A9426DB84E70068D1EC /* SideMenuTableViewCell.xib */,
+				48860A9726DB8DD20068D1EC /* HeaderSideTableViewCell.swift */,
+				48860A9826DB8DD20068D1EC /* HeaderSideTableViewCell.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		48860A9B26DB93D90068D1EC /* CreateNewTask */ = {
+			isa = PBXGroup;
+			children = (
+				48860A9C26DB940F0068D1EC /* NewTaskViewController.swift */,
+				48860A9D26DB940F0068D1EC /* NewTaskViewController.xib */,
+				48868D1E26DB9C1D009149E1 /* BottomMenuTableViewCell.swift */,
+				48868D1F26DB9C1D009149E1 /* BottomMenuTableViewCell.xib */,
+			);
+			path = CreateNewTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +422,10 @@
 				486CDA0926DABED800183166 /* TTInterfaces-Thin.ttf in Resources */,
 				486CDA0D26DABED800183166 /* TTInterfaces-ExtraLightItalic.ttf in Resources */,
 				486CDA1026DABED800183166 /* TTInterfaces-BlackItalic.ttf in Resources */,
+				486CDA2C26DB7C5600183166 /* SubHeaderTableViewCell.xib in Resources */,
+				48860A9F26DB940F0068D1EC /* NewTaskViewController.xib in Resources */,
 				486CDA0826DABED800183166 /* TTInterfaces-Italic.ttf in Resources */,
+				48860A9A26DB8DD20068D1EC /* HeaderSideTableViewCell.xib in Resources */,
 				486CD9EC26DAB91900183166 /* TaskListViewController.xib in Resources */,
 				486CDA0F26DABED800183166 /* TTInterfaces-Regular.ttf in Resources */,
 				486CDA1426DABED800183166 /* TTInterfaces-ExtraLight.ttf in Resources */,
@@ -348,12 +437,18 @@
 				486CDA0C26DABED800183166 /* TTInterfaces-ExtraBoldItalic.ttf in Resources */,
 				486CDA1126DABED800183166 /* TTInterfaces-SemiBoldItalic.ttf in Resources */,
 				486CDA0B26DABED800183166 /* TTInterfaces-Bold.ttf in Resources */,
+				486CDA2826DB7A2F00183166 /* CarouselCollectionViewCell.xib in Resources */,
 				486CDA0726DABED800183166 /* TTInterfaces-Black.ttf in Resources */,
+				486CDA1F26DB774200183166 /* HeaderTableViewCell.xib in Resources */,
+				48860A9626DB84E70068D1EC /* SideMenuTableViewCell.xib in Resources */,
 				486CDA1726DABED800183166 /* TTInterfaces-LightItalic.ttf in Resources */,
+				48860A9126DB813B0068D1EC /* SpaceTableViewCell.xib in Resources */,
 				486CDA1326DABED800183166 /* TTInterfaces-ThinItalic.ttf in Resources */,
+				486CDA2326DB791800183166 /* BodyTableViewCell.xib in Resources */,
 				2DCC713326DA537600248A19 /* Assets.xcassets in Resources */,
 				486CDA1826DABED800183166 /* TTInterfaces-Medium.ttf in Resources */,
 				486CDA1526DABED800183166 /* TTInterfaces-Light.ttf in Resources */,
+				48868D2126DB9C1D009149E1 /* BottomMenuTableViewCell.xib in Resources */,
 				486CDA1226DABED800183166 /* TTInterfaces-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,13 +460,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48860A9E26DB940F0068D1EC /* NewTaskViewController.swift in Sources */,
+				48868D2026DB9C1D009149E1 /* BottomMenuTableViewCell.swift in Sources */,
+				486CDA2726DB7A2F00183166 /* CarouselCollectionViewCell.swift in Sources */,
 				486CDA1A26DAC26D00183166 /* CommonServiceProtocol.swift in Sources */,
+				48860A9026DB813B0068D1EC /* SpaceTableViewCell.swift in Sources */,
+				48860A9926DB8DD20068D1EC /* HeaderSideTableViewCell.swift in Sources */,
 				2DCC715326DAA68F00248A19 /* TaskService.swift in Sources */,
 				2DCC714926DA9C2500248A19 /* MasterViewController.swift in Sources */,
+				486CDA2B26DB7C5600183166 /* SubHeaderTableViewCell.swift in Sources */,
 				486CD9EF26DABA7F00183166 /* NavigationView.swift in Sources */,
+				486CDA1E26DB774200183166 /* HeaderTableViewCell.swift in Sources */,
 				2DCC714F26DAA5A300248A19 /* TaskCell.swift in Sources */,
 				2DCC712D26DA537400248A19 /* AppDelegate.swift in Sources */,
+				48860A9526DB84E70068D1EC /* SideMenuTableViewCell.swift in Sources */,
 				2DCC712F26DA537400248A19 /* SceneDelegate.swift in Sources */,
+				486CDA2226DB791800183166 /* BodyTableViewCell.swift in Sources */,
 				486CD9EB26DAB91900183166 /* TaskListViewController.swift in Sources */,
 				2DCC713126DA537400248A19 /* ContentView.swift in Sources */,
 				2DCC714626DA56D700248A19 /* WelcomeView.swift in Sources */,

@@ -133,6 +133,10 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="i9h-gY-njv" secondAttribute="trailing" constant="30" id="yZ8-VM-G3q"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sideButton" destination="4rO-dG-DAt" id="nCs-RT-AKW"/>
+                <outlet property="tapToAddNewCard" destination="Xff-hY-z7m" id="ptI-6p-qsh"/>
+            </connections>
             <point key="canvasLocation" x="214.56808199121522" y="-170.5078125"/>
         </view>
     </objects>
