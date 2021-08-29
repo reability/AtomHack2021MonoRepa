@@ -62,7 +62,7 @@ final class TaskListViewController: UIViewController, UITableViewDataSource, UIT
         tableView.translatesAutoresizingMaskIntoConstraints = false
         sideMenu.translatesAutoresizingMaskIntoConstraints = false
         
-        tableView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        tableView.backgroundColor = #colorLiteral(red: 0.8980392157, green: 0.8980392157, blue: 0.8980392157, alpha: 1)
         self.view.backgroundColor = #colorLiteral(red: 0.8980392157, green: 0.8980392157, blue: 0.8980392157, alpha: 1)
         
         navigationView.sideButton.addTarget(self, action: #selector(showSideMenu), for: .touchUpInside)
